@@ -59,6 +59,11 @@ li:last-child {
     font-style: italic;
 }
 
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
 .main-header {
     background-color: #f7f7f7;
     padding: 20px 40px;
