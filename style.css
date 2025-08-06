@@ -21,16 +21,38 @@ h1 {
     text-transform: uppercase;
     font-style: italic;
 }
+h1::first-letter {
+    font-style: normal;
+    margin-right: 5px;
+}
 
 h2 {
     font-size: 40px;
     margin-bottom: 30px;
+    position: relative;
+}
+
+h2::after {
+    content: "TOP";
+    background-color: #ffe70e;
+    color: #444444;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    position: absolute;
+    top: -10px;
+    right: -25px;
 }
 
 h3 {
     font-size: 30px;
     margin-bottom: 20px;
 }
+
+/* h3 + p::first-line {
+    color: pink;
+} */
 
 h4 {
     font-size: 20px;
@@ -161,9 +183,9 @@ a:visited {
 }
 
 a:hover {
-    color: orangered;
+    color: #ff4500;
     font-weight: bold;
-    text-decoration: underline wavy orangered;
+    text-decoration: underline wavy #ff4500;
 }
 
 a:active {
