@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -58,6 +59,7 @@ h4 {
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 p {
@@ -144,14 +146,14 @@ article {
 
 .related {
     list-style: none;
+    margin-left: 0;
 }
 
 aside {
     background-color: #f7f7f7;
     border-top: 5px solid #1098ad;
     border-bottom: 5px solid #1098ad;
-    padding: 50px 0;
-    width: 500px;
+    padding: 50px 40px;
 }
 
 /* Pseudo-classes */
@@ -246,7 +248,7 @@ nav {
 }
 
 article {
-    width: 800px;
+    width: 825px;
     float: left;
 }
 
