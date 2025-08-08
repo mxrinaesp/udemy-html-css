@@ -5,7 +5,7 @@
 
 body {
     font-family: sans-serif;
-    color: #444;
+    color: #444444;
     border-top: 10px solid #1098ad;
     position: relative;
 }
@@ -84,13 +84,12 @@ li:last-child {
 }
 
 .container {
-    width: 800px;
+    width: 1200px;
     margin: 0 auto;
 }
 
 .main-header {
     background-color: #f7f7f7;
-    background-color: red;
     padding: 20px 40px;
     margin-bottom: 60px;
     /* height: 80px; */
@@ -165,7 +164,7 @@ li:last-child {
 }
 
 /* li:nth-child(even) {
-    color: #000;
+    color: #000000;
 } */
 
 /* Misconception: this won't work */
@@ -244,4 +243,18 @@ nav {
     content: "";
     clear: both;
     display: block;
+}
+
+article {
+    width: 800px;
+    float: left;
+}
+
+aside {
+    width: 300px;
+    float: right;
+}
+
+footer {
+    clear: both;
 }
