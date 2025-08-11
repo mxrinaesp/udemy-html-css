@@ -43,12 +43,22 @@
                 display: flex;
                 align-items: center;
                 justify-content: flex-start;
-                gap: 20px;
+                gap: 10px;
             }
 
-            /* .el {
-                margin-right: 20px;
-            } */
+            .el {
+                /* 
+                DEFAULTS:
+                flex-grow: 0;
+                flex-shrink: 1;
+                flex-basis: auto;
+                */
+                /* flex-basis: 200px; */
+                /* flex-shrink: 0; */
+                /* flex-grow: 1; */
+
+                flex: 1 0 100px;
+            }
 
             .el--1 {
                 align-self: flex-start;
@@ -71,9 +81,7 @@
             <div class="el el--3">CSS</div>
             <div class="el el--4">are</div>
             <div class="el el--5">amazing</div>
-            <div class="el el--6">languages</div>
-            <div class="el el--7">to</div>
-            <div class="el el--8">learn</div>
+            <!-- <div class="el el--6">languages</div> -->
         </div>
     </body>
 </html>
