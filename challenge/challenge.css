@@ -124,10 +124,10 @@ h2::before {
 }
 
 /* FLEXBOX */
-.container {
+/* .container {
     display: flex;
     gap: 40px;
-}
+} */
 
 .product-img {
     margin-right: 0;
@@ -141,7 +141,7 @@ h2::before {
 }
 
 .product-info {
-    flex: 1;
+    /* flex: 1; */
     margin-top: 20px;
 }
 
@@ -152,5 +152,20 @@ h2::before {
 
 .product-details {
     margin-top: 20px;
-    flex: 1;
+    /* flex: 1; */
+}
+
+/* CSS GRID */
+.product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+}
+
+.product-title {
+    grid-column: 1 / -1;
+}
+
+.add-cart {
+    grid-column: 1 / -1;
 }
