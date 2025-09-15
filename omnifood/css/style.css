@@ -1,4 +1,4 @@
-/* 
+/*
 
 ----- 01 TYPOGRAPHY SYSTEM
 
@@ -15,12 +15,12 @@ Default: 1;
 ----- 02 COLORS
 
 - Primary: #e67e22;
-- Tints: 
+- Tints:
 - Shades:
 - Accents:
 - Greys: #555555;
 
------ 05 SHADOWS 
+----- 05 SHADOWS
 
 
 ----- 06 BORDER-RADIUS
@@ -39,9 +39,30 @@ Default: 1;
     box-sizing: border-box;
 }
 
+html {
+    /* font-size: 10px */
+    /* 10px / 16px = 0.625 = 62.5% */
+    /* Percentage of user's browser font-size setting */
+    font-size: 62.5%;
+}
+
 body {
     font-family: sans-serif;
     line-height: 1;
     font-weight: 400;
     color: #555555;
+}
+
+.test {
+    /* MAX-WIDTH */
+    background-color: violet;
+    /* width: 800px; */
+    /* max-width: 1300px; */
+
+    /* REM UNIT*/
+    max-width: 50rem;
+    padding: 4rem;
+    font-size: 2rem;
+    color: #ffffff;
+    /* originally 1 rem = 16px */
 }
