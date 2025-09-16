@@ -11,7 +11,6 @@ Default: 400;
 - Line heights
 Default: 1;
 
-
 ----- 02 COLORS
 
 - Primary: #e67e22;
@@ -22,9 +21,7 @@ Default: 1;
 
 ----- 05 SHADOWS
 
-
 ----- 06 BORDER-RADIUS
-
 
 ----- 07 WHITESPACE
 
@@ -53,16 +50,14 @@ body {
     color: #555555;
 }
 
-.test {
-    /* MAX-WIDTH */
-    background-color: violet;
-    /* width: 800px; */
-    /* max-width: 1300px; */
+.hero {
+    max-width: 130rem;
+    margin: 0 auto;
 
-    /* REM UNIT*/
-    max-width: 50rem;
-    padding: 4rem;
-    font-size: 2rem;
-    color: #ffffff;
-    /* originally 1 rem = 16px */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero-img {
+    width: 100%;
 }
